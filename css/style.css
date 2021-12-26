@@ -1,0 +1,138 @@
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+/* Header Css */
+header {
+  background: 
+  linear-gradient(180deg, #181818, #282828,	#484848, #606060, #888888, #B8B8B8, #fff);
+}
+
+.container-fluid {
+  padding: 5% 3%;
+}
+
+.navbar-brand {
+  font-family: 'Titan One', cursive; 
+}
+
+sub {
+  font-size: 8px; 
+  font-weight: 800;
+  letter-spacing: 1px;
+ }
+
+ul > li {
+  padding-right: 2.3rem;
+  font-size: 1.2rem;
+}
+
+h1 {
+  color: #BEBEBE;
+  font-family: 'Outfit', sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+  margin-top: 5rem;
+}
+
+.account {
+  margin-top: 4rem;
+}
+
+.log-in, .sign-up {
+  font-family: 'Outfit', sans-serif;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.log-in {
+  color: #F05454;
+}
+
+.log-in:hover {
+  color: #FF0000;
+}
+
+.sign-up {
+  color: #2EAC6D;
+  border: 2px solid #2EAC6D;
+  border-radius: 20px;
+  padding: 5px 15px;
+  margin-left: 2rem;
+}
+
+.sign-up:hover {
+  background-color: #2EAC6D;
+  color: white;
+}
+
+.image-guitar {
+  transform: rotate(-90deg);
+  margin-top: 10rem;
+  }
+
+  /*  Main  */
+h2 {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+p {
+  padding-top: 1rem;
+  color: #8f8f8f;
+  font-size: 1.2rem;
+}
+
+.img-small {
+  width: 15rem;
+}
+
+section {
+  padding: 10% 5% 5%;
+  background: linear-gradient(180deg, #fff, #eeeeee, #fff);
+}
+
+aside { 
+  padding: 5%;
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(180deg, #fff, #eeeeee);
+}
+
+/*  Footer */
+footer {
+  border-top: gray 1px solid;
+  padding: 3%;
+  background-color: #eeeeee;
+}
+
+.copy-right {
+  font-size: 0.8rem;
+}
+
+.social a span {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+  transition: 0.4s;
+}
+
+.social a span:hover {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 375px) {
+  section div, aside {
+    padding: 15% 3% 5%;
+  }
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  p {
+    padding-top: 0.2rem;
+  }
+}
