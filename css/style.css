@@ -140,4 +140,12 @@ footer {
   p {
     padding-top: 0.2rem;
   }
+  .login-spotify, .sign-up {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    width: 60%;
+  }
 }
