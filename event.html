@@ -12,7 +12,7 @@
   <meta name="author" content="Tuncay Alp">
   <meta name="copyright" content="Garage France">
 
-  <title>Garage</title>
+  <title>Garage | Events nearby</title>
   
   <link rel="icon" href="images/favicon.ico">
   
@@ -49,7 +49,7 @@
             <a class="nav-link" href="#information">Anounces</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="event.html">Events</a>
+            <a class="nav-link" href="#information">Events</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#information">Courses</a>
@@ -58,81 +58,79 @@
       </div>
     </nav>
     <!--    Navigation End    -->
-
-    <!--    Header and top image    -->
-    <div class="row">
-      <div class="col-md-6">
-        <h1>Find a band, online music lessons and events</h1>
-        <div class="account">
-          <a class="sign-up" href="#">
-            SIGN UP
-          </a>
-          <a class="login-spotify" target="_blank" href="https://accounts.spotify.com/en/login/">
-            LOG IN WITH SPOTIFY
-          </a>
-        </div>
-      </div>
-      <div class="col-md-6 d-none d-md-block">
-        <img class="image-guitar" src="images/guitar.png" alt="guitar image">
-      </div>
+    <div class="text-center events">
+      <h1>Events nearby</h1>
+      <p class="fs-3 fw-bold text-dark p-3">
+        All available live music, concerts, tour dates and festivals around you.
+      </p>
     </div>
-  </div> 
 </header>
 
 <main>
-  <section class="text-center" id="information">
-    <div class="d-lg-flex justify-content-lg-around">
-      <div class="mx-auto me-lg-5">
-        <img class="img-small" src="images/united.png" alt="anounce image">
-        <p>Check our anounces to profit our website. 
-        You can find the other musicians, create the 
-        new project or teach music online</p>
+  <div id="carouselEvents" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/concert-1.jpg" class="d-block w-100" alt="Luna band image">
+        <div class="carousel-caption d-block">
+          <h2 class="fw-bold">Luna</h2>
+          <p class="text-white"><span class="fw-bold fs-4">04/01 VIP</span> - St Nazaire FR</p>
+          <button class="btn btn-outline-light px-4">I participate</button>
+        </div>
       </div>
-      <div class="mx-auto">
-        <img class="img-small" src="images/placard2.png" alt="event image">
-        <p>The events are there. You can find the live concerts in your city
-          in events. If you have any upcoming concerts of your band, you can easily
-          creat an event 
-        </p>
+      <div class="carousel-item">
+        <img src="images/concert-2.jpg" class="d-block w-100" alt="Istanbul Project image">
+        <div class="carousel-caption d-block">
+          <h2 class="fw-bold">Istanbul Project</h2>
+          <p class="text-white"><span class="fw-bold fs-4">04/01 Rockstore</span> - Montpellier FR</p>
+          <button class="btn btn-outline-light px-4">I participate</button>
+        </div>
       </div>
-      <div class="mx-auto ms-lg-5">
-        <img class="img-small" src="images/piano.png" alt="piano image">
-        <p>There are online lessons which are given by our users.
-          If you are a music teacher, do not forget to mention on your 
-          profile. 
-        </p>
+      <div class="carousel-item">
+        <img src="images/concert-3.jpg" class="d-block w-100" alt="Malt Band Image">
+        <div class="carousel-caption d-block">
+          <h2 class="fw-bold">Malt</h2>
+          <p class="text-white"><span class="fw-bold fs-4">04/01 Le Tetris</span> - Le Havre FR</p>
+          <button class="btn btn-outline-light px-4">I participate</button>
+        </div>
       </div>
     </div>
-    
-    
-  </section>
-  <hr>
-  <aside class="mx-auto text-center">
-    <div> 
-      <h2 class="fw-bold ">Discover the Garage</h2>
-      <p class="mt-sm-5">
-        By using our website, you can find the events of the month,
-        take or give the instrument courses and meet the other musicians
-        for your future projects.
-        Once you login into Garage, you can create an anounce.
-        If you are looking for new projects, you can check the 
-        recent anounces. Then contact with the others in our network
-      </p>
-    </div> 
-    <div class="mt-5">
-      <span class="d-block pt-3 pb-3">Get in Mobile version</span>
-      <button type="button" class="btn btn-dark me-3">
-        <span class="fab fa-apple"></span>
-        Download
-      </button>
-      <button type="button" class="btn ms-3" style="background-color: #FE8F8F;">
-        <span class="fab fa-google-play"></span>
-        Download
-      </button>
-    </div>
-  </aside>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselEvents" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselEvents" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 </main>
 
+<!--
+<aside class="mx-auto text-center">
+  <div> 
+    <h2 class="fw-bold ">Discover the Garage</h2>
+    <p class="mt-sm-5">
+      By using our website, you can find the events of the month,
+      take or give the instrument courses and meet the other musicians
+      for your future projects.
+      Once you login into Garage, you can create an anounce.
+      If you are looking for new projects, you can check the 
+      recent anounces. Then contact with the others in our network
+    </p>
+  </div> 
+  <div class="mt-5">
+    <span class="d-block pt-3 pb-3">Get in Mobile version</span>
+    <button type="button" class="btn btn-dark me-3">
+      <span class="fab fa-apple"></span>
+      Download
+    </button>
+    <button type="button" class="btn ms-3" style="background-color: #FE8F8F;">
+      <span class="fab fa-google-play"></span>
+      Download
+    </button>
+  </div>
+</aside>
+-->
 <footer>
   <div class="text-center">
     <span class="copy-right ms-3">&copy; Garage France 2021</span>

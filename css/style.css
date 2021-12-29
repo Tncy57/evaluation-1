@@ -6,7 +6,7 @@ body {
 /* Header Css */
 header {
   background: 
-  linear-gradient(180deg, #181818, #282828,	#484848, #606060, #888888, #B8B8B8, #fff);
+  linear-gradient(180deg, #181818, #282828,	#484848, #606060, #888888, #B8B8B8);
 }
 
 .container-fluid {
