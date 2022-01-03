@@ -80,6 +80,21 @@ h1 {
   }
 
   /*  Main  */
+  section {
+    padding: 10% 5% 5%;
+    background: linear-gradient(180deg, #fff, #eeeeee, #fff);
+  }
+
+  .img-small {
+    width: 15rem;
+  }
+  
+  aside { 
+    padding: 5%;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(180deg, #fff, #eeeeee);
+  }
+
 h2 {
   text-transform: capitalize;
   letter-spacing: 2px;
@@ -89,21 +104,6 @@ p {
   padding-top: 1rem;
   color: #8f8f8f;
   font-size: 1.2rem;
-}
-
-.img-small {
-  width: 15rem;
-}
-
-section {
-  padding: 10% 5% 5%;
-  background: linear-gradient(180deg, #fff, #eeeeee, #fff);
-}
-
-aside { 
-  padding: 5%;
-  font-family: 'Open Sans', sans-serif;
-  background: linear-gradient(180deg, #fff, #eeeeee);
 }
 
 /*  Footer */
