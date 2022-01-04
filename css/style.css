@@ -85,7 +85,7 @@ h1 {
     background: linear-gradient(180deg, #fff, #eeeeee, #fff);
   }
 
-  .img-small {
+  .img-section {
     width: 15rem;
   }
   
@@ -117,7 +117,7 @@ footer {
   font-size: 0.8rem;
 }
 
-.social a span {
+.social-media a span {
   margin-left: 1rem;
   font-size: 1.2rem;
   text-decoration: none;
@@ -125,7 +125,7 @@ footer {
   transition: 0.4s;
 }
 
-.social a span:hover {
+.social-media a span:hover {
   font-size: 1.4rem;
 }
 
